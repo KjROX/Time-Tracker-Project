@@ -19,7 +19,7 @@ body {
   background-color: hsl(235, 46%, 20%);
   border-radius: 2rem;
 }
-.prfile-name {
+.profile-name {
   background-color: hsl(246, 80%, 60%);
   border-radius: 2rem;
   padding: 3rem 5rem;
@@ -43,6 +43,9 @@ body {
 
 .name {
   /* flex-grow: 2; */
+}
+.name br {
+  display: none;
 }
 .name p {
   color: hsl(236, 100%, 87%);
@@ -231,6 +234,7 @@ body {
     grid-template-rows: 1fr 1fr;
     align-items: start;
     grid-gap: 2rem;
+    padding: 0rem 20rem;
   }
   .profile {
     grid-column: 1/2;
@@ -240,11 +244,25 @@ body {
   }
   .profile-name {
     flex-direction: column;
-    /* align-items: flex-start; */
+    align-items: flex-start;
+    padding: 2rem 3rem 3rem 2rem;
+  }
+  .dp {
+    margin: 0rem 0rem 2rem 0rem;
+  }
+  .name {
+    margin: 1.4rem 0rem;
+  }
+  .name br {
+    display: block;
+  }
+  .name h1 {
+    font-size: 3rem;
   }
   .time-units {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-around;
   }
   .common1 {
     margin: 0;
