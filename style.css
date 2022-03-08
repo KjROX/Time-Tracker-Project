@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+.full {
+  background-color: hsl(226, 43%, 10%);
+  width: 100%;
+  min-height: 100vh;
+  padding: 5rem 2rem;
+}
+.profile {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 2rem;
+}
+.prfile-name {
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 2rem;
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.dp {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  background-image: url(./images/image-jeremy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 1rem;
+  border: 2px solid white;
+  /* flex-grow: 1; */
+}
+
+.name {
+  /* flex-grow: 2; */
+}
+.name p {
+  color: hsl(236, 100%, 87%);
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.name h1 {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+.time-units {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(235, 46%, 20%);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.time-units h3 {
+  color: hsl(236, 100%, 87%);
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  padding: 2rem 3rem;
+  font-size: 1.7rem;
+}
+
+/*Template*/
+.work {
+  margin-top: 2rem;
+  background-color: hsl(15, 100%, 70%);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.color {
+  background-color: hsl(15, 100%, 70%);
+  border-radius: 2rem;
+  position: relative;
+  padding: 2rem;
+}
+.color img {
+  height: 6rem;
+  position: absolute;
+  right: 1.5rem;
+  top: -0.5rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 2rem;
+  padding: 2rem;
+  position: relative;
+  z-index: 10;
+}
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.first h1 {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.second h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.second p {
+  color: hsl(236, 100%, 87%);
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+/* play section */
+.play {
+  margin-top: 2rem;
+  background-color: hsl(195, 74%, 62%);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.color-play {
+  background-color: hsl(195, 74%, 62%);
+  border-radius: 2rem;
+  position: relative;
+  padding: 2rem;
+}
+.color-play img {
+  height: 6rem;
+  position: absolute;
+  right: 1.5rem;
+  top: -0.5rem;
+}
+/* study section */
+.study {
+  margin-top: 2rem;
+  background-color: hsl(348, 100%, 68%);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.color-study {
+  background-color: hsl(348, 100%, 68%);
+  border-radius: 2rem;
+  position: relative;
+  padding: 2rem;
+}
+.color-study img {
+  height: 6rem;
+  position: absolute;
+  right: 1.5rem;
+  top: -0.5rem;
+}
+/* exercise section */
+.exercise {
+  margin-top: 2rem;
+  background-color: hsl(145, 58%, 55%);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.color-exercise {
+  background-color: hsl(145, 58%, 55%);
+  border-radius: 2rem;
+  position: relative;
+  padding: 2rem;
+}
+.color-exercise img {
+  height: 6rem;
+  position: absolute;
+  right: 1.5rem;
+  top: -0.5rem;
+}
+.social {
+  margin-top: 2rem;
+  background-color: hsl(264, 64%, 52%);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.color-social {
+  background-color: hsl(264, 64%, 52%);
+  border-radius: 2rem;
+  position: relative;
+  padding: 2rem;
+}
+.color-social img {
+  height: 6rem;
+  position: absolute;
+  right: 1.5rem;
+  top: -0.5rem;
+}
+.self-care {
+  margin-top: 2rem;
+  background-color: hsl(43, 84%, 65%);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.color-self-care {
+  background-color: hsl(43, 84%, 65%);
+  border-radius: 2rem;
+  position: relative;
+  padding: 2rem;
+}
+.color-self-care img {
+  height: 6rem;
+  position: absolute;
+  right: 1.5rem;
+  top: -0.5rem;
+}
+
+@media (min-width: 809px) {
+  .full {
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    align-items: start;
+    grid-gap: 2rem;
+  }
+  .profile {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    align-self: center;
+    /* margin: 50rem 0rem; */
+  }
+  .profile-name {
+    flex-direction: column;
+    /* align-items: flex-start; */
+  }
+  .time-units {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .common1 {
+    margin: 0;
+  }
+  .second {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .second h1 {
+    font-size: 4rem;
+  }
+  .work {
+    align-self: end;
+  }
+  .play {
+    align-self: end;
+  }
+  .study {
+    align-self: end;
+  }
+}
