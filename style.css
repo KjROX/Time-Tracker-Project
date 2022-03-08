@@ -43,6 +43,7 @@ body {
 
 .name {
   /* flex-grow: 2; */
+  margin-left: 2rem;
 }
 .name br {
   display: none;
